@@ -1,0 +1,30 @@
+body{
+    background: #cccccc;
+}
+.div{
+    border-radius: 15px;/*giving border to the box at all 4 corners*/
+    border-radius: 15px 0 0 0;/*border cornr chajnged only for one rest three unchnged*/
+  
+    background-color:blue;
+    width:300px;
+    border:15px solid red;
+    padding: 50px;
+    margin: 20px;
+}
+.topnav{ /* simple selector - class selector*/
+    overflow:hidden;
+    background-color: #000000;
+}
+.topnav a{ /*combinator selector*/
+    float: left;
+    display: block; /*covers the whole area display*/
+    color:#FFFFFF;
+    text-align: center;
+    padding : 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover { /*pseudo class selector*/
+    color: black;
+    background-color: white;
+
+}
